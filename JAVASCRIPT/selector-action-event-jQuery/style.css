@@ -1,0 +1,36 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+#form {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+h1 {
+  width: 300px;
+  margin: 0 auto;
+}
+
+#info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  width: 300px;
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+}

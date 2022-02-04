@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+  grid-template-areas:
+    "sidebar nav nav nav"
+    "sidebar main main main"
+    "sidebar main main main"
+    "sidebar footer footer footer";
+  grid-gap: 0.2rem;
+}
+
+nav {
+  background-color: rgb(66, 59, 59);
+  grid-area: nav;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  background-color: #eaeaea;
+  grid-area: main;
+  text-align: center;
+  padding: 50px;
+}
+
+.sidebar {
+  background-color: aqua;
+  grid-area: sidebar;
+  padding: 50px;
+  border-width: bold;
+}
+
+footer {
+  background-color: rgb(66, 59, 59);
+  grid-area: footer;
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin: 20px;
+}

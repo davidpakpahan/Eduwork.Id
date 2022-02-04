@@ -1,0 +1,27 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.body {
+    background: #000000;
+}
+
+.image-size {
+    width: 50px;
+}
+
+.image-edit {
+    width: 50px;
+}
+
+s {
+    color: red;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a p {
+    color: black;
+}

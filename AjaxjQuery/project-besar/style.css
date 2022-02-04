@@ -1,0 +1,331 @@
+body {
+  background: #eaeaea;
+}
+
+.row {
+  height: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  margin-top: 10px;
+}
+.kotak1 {
+  width: 400px;
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.kotak2 {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 230px;
+}
+.kotak3 {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.kotak4 {
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulat1 {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulat2 {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulat3 {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulat4 {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.bulat5 {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.slideshow {
+  height: 300px;
+}
+.d-block {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 300px;
+}
+.flex1 {
+  display: flex;
+}
+.bulat6 {
+  height: 30px;
+  background-color: white;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  clip-path: circle();
+}
+.kotak5 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak6 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak7 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak8 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak9 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak10 {
+  height: 30px;
+  background-color: white;
+  margin-top: 30px;
+}
+.kotak11 {
+  height: 30px;
+  background-color: white;
+  margin-top: 30px;
+}
+.kotak12 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak13 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak14 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.kotak15 {
+  height: 30px;
+  background-color: white;
+  margin-top: 10px;
+}
+.create_pos {
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.kotak16 {
+  height: 50px;
+  background-color: #eaeaea;
+}
+.kotak17 {
+  height: 30px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+.kotak18 {
+  height: 30px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+.kotak19 {
+  height: 30px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+.kotak20 {
+  height: 30px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+.stories {
+  height: 210px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.kotak21 {
+  height: 150px;
+  background-color: #eaeaea;
+}
+.kotak22 {
+  height: 150px;
+  background-color: #eaeaea;
+}
+.kotak23 {
+  height: 150px;
+  background-color: #eaeaea;
+}
+.kotak24 {
+  height: 150px;
+  background-color: #eaeaea;
+}
+.tagged {
+  height: 390px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.flex2 {
+  display: flex;
+  justify-content: space-between;
+}
+.kotak25 {
+  height: 30px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+.flex3 {
+  display: flex;
+}
+.bulat7 {
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  clip-path: circle();
+}
+.kotak26 {
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.kotak27 {
+  height: 60px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.kotak28 {
+  height: 200px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.kotak29 {
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.listing {
+  height: 390px;
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+.kotak31 {
+  height: 150px;
+  background-color: #eaeaea;
+}
+.kotak32 {
+  height: 150px;
+  background-color: #eaeaea;
+  margin-top: 120px;
+}
+.kotak33 {
+  height: 150px;
+  background-color: #eaeaea;
+  margin-top: 120px;
+}
+
+.people {
+  height: 260px;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+.flex4 {
+  display: flex;
+  justify-content: space-between;
+}
+.flex4 p {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.kotak34 {
+  height: 60px;
+  background-color: #eaeaea;
+}
+.kotak35 {
+  height: 60px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+.kotak36 {
+  height: 60px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+}
+h6 {
+  padding: 10px;
+}
+p {
+  margin-top: 10px;
+}
+.footer h6 {
+  background-color: rgb(150, 141, 141);
+  float: right;
+  padding-right: 150px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .leftbar {
+    display: none;
+  }
+}

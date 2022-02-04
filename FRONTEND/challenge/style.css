@@ -1,0 +1,640 @@
+body {
+  background-color: #eaeaea;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 250px 600px 330px;
+  grid-template-rows: 50px 5fr 50px;
+  grid-template-areas:
+    "header header header"
+    "leftbar centerbar rightbar"
+    "footer footer footer";
+  grid-gap: 10px;
+}
+
+header {
+  background-color: blue;
+  grid-area: header;
+  display: flex;
+}
+
+.leftbar {
+  grid-area: leftbar;
+}
+
+.centerbar {
+  grid-area: centerbar;
+}
+
+.rightbar {
+  grid-area: rightbar;
+}
+
+header img {
+  width: 30px;
+  height: 30px;
+  clip-path: circle();
+  margin-top: 10px;
+}
+
+.kotak1 {
+  height: 30px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: white;
+}
+
+.kotak2 {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 330px;
+  background-color: white;
+}
+
+.kotak3 {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.kotak4 {
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+}
+
+.bulat1 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat2 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat3 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat4 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat5 {
+  height: 30px;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.flex1 {
+  display: flex;
+}
+
+.bulat6 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.kotak5 {
+  width: 210px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.kotak6 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak7 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak8 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak9 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak10 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.kotak11 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.kotak12 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak13 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak14 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak15 {
+  width: 250px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.create-pos {
+  width: 600px;
+  height: 190px;
+  background-color: white;
+}
+
+h4 {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.kotak16 {
+  width: 580px;
+  height: 100px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.flex2 {
+  display: flex;
+}
+.kotak17 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak18 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak19 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak20 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.stories {
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+.kotak21 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak22 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak23 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak24 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.tagged {
+  width: 600px;
+  height: 280px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kotak25 {
+  height: 20px;
+  width: 20px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.flex5 {
+  display: flex;
+}
+
+.bulat7 {
+  width: 40px;
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+  clip-path: circle();
+}
+
+.kotak26 {
+  width: 520px;
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.kotak27 {
+  width: 580px;
+  height: 60px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kotak28 {
+  width: 580px;
+  height: 100px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kotak29 {
+  width: 330px;
+  height: 70px;
+  background-color: white;
+}
+
+.listing {
+  width: 330px;
+  height: 360px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex6 {
+  display: flex;
+}
+
+.kotak30 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak31 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.flex7 {
+  display: flex;
+}
+
+.kotak32 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak33 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.people {
+  width: 330px;
+  height: 320px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex8 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.people p {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.kotak34 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak35 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak36 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.flex-button {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .container {
+    grid-template-columns: 576px;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "header"
+      "centerbar";
+  }
+
+  .flex-button {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .open-left {
+    width: 90px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .close-left {
+    width: 90px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+  }
+
+  .leftbar {
+    display: none;
+  }
+
+  .rightbar {
+    display: none;
+  }
+
+  .create-pos {
+    width: 576px;
+  }
+
+  .kotak20 {
+    width: 70px;
+  }
+
+  .kotak16 {
+    width: 556px;
+  }
+
+  .stories {
+    width: 576px;
+  }
+
+  .kotak21 {
+    width: 131.5px;
+  }
+
+  .kotak22 {
+    width: 131.5px;
+  }
+
+  .kotak23 {
+    width: 131.5px;
+  }
+
+  .kotak24 {
+    width: 131.5px;
+  }
+
+  .tagged {
+    width: 576px;
+  }
+
+  .kotak26 {
+    width: 496px;
+  }
+
+  .kotak27 {
+    width: 556px;
+  }
+
+  .kotak28 {
+    width: 556px;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "centerbar rightbar";
+  }
+
+  .open-left {
+    display: none;
+  }
+
+  .close-left {
+    display: none;
+  }
+
+  .leftbar {
+    display: none;
+  }
+
+  .rightbar {
+    margin-right: 20px;
+  }
+
+  .create-pos {
+    width: 384px;
+  }
+
+  .kotak16 {
+    width: 364px;
+  }
+
+  .kotak17 {
+    width: 90px;
+  }
+
+  .kotak18 {
+    width: 90px;
+  }
+
+  .kotak19 {
+    width: 90px;
+  }
+
+  .kotak20 {
+    width: 30px;
+  }
+
+  .stories {
+    width: 384px;
+  }
+
+  .kotak21 {
+    width: 83.5px;
+  }
+
+  .kotak22 {
+    width: 83.5px;
+  }
+
+  .kotak23 {
+    width: 83.5px;
+  }
+
+  .kotak24 {
+    width: 83.5px;
+  }
+
+  .tagged {
+    width: 384px;
+  }
+
+  .kotak26 {
+    width: 284px;
+  }
+
+  .kotak27 {
+    width: 364px;
+  }
+
+  .kotak28 {
+    width: 364px;
+  }
+}

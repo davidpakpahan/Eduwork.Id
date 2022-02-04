@@ -1,0 +1,615 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  padding: 10px;
+}
+
+.containerheader {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.containercontent {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.containerheader img {
+  width: 30px;
+  clip-path: circle();
+}
+
+.leftbar {
+  float: left;
+  margin-top: 10px;
+}
+
+.centerbar {
+  float: left;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.rightbar {
+  float: left;
+  margin-top: 10px;
+  margin-left: 35px;
+}
+
+.kotak1 {
+  height: 30px;
+  width: 300px;
+  background-color: white;
+}
+
+.kotak2 {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
+
+.kotak3 {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
+
+.kotak4 {
+  height: 30px;
+  width: 100px;
+  background-color: white;
+}
+
+.bulat1 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat2 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat3 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat4 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.bulat5 {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.flex1 {
+  display: flex;
+}
+.bulat6 {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  clip-path: circle();
+}
+
+.kotak5 {
+  width: 160px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.kotak6 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak7 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak8 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak9 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak10 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.kotak11 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.kotak12 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak13 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak14 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.kotak15 {
+  width: 200px;
+  height: 30px;
+  background-color: white;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.create-pos {
+  width: 600px;
+  height: 190px;
+  background-color: white;
+}
+
+h4 {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.kotak16 {
+  width: 580px;
+  height: 100px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.flex2 {
+  display: flex;
+}
+.kotak17 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak18 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak19 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak20 {
+  width: 120px;
+  height: 30px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.stories {
+  width: 600px;
+  height: 250px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex3 {
+  display: flex;
+}
+
+.kotak21 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak22 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak23 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak24 {
+  height: 200px;
+  width: 137.5px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.tagged {
+  width: 600px;
+  height: 280px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex4 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.kotak25 {
+  height: 20px;
+  width: 20px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.flex5 {
+  display: flex;
+}
+
+.bulat7 {
+  width: 40px;
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+  clip-path: circle();
+}
+
+.kotak26 {
+  width: 520px;
+  height: 40px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.kotak27 {
+  width: 580px;
+  height: 60px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kotak28 {
+  width: 580px;
+  height: 100px;
+  background-color: #eaeaea;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.kotak29 {
+  width: 330px;
+  height: 70px;
+  background-color: white;
+}
+
+.listing {
+  width: 330px;
+  height: 360px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex6 {
+  display: flex;
+}
+
+.kotak30 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.kotak31 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+}
+
+.flex7 {
+  display: flex;
+}
+
+.kotak32 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak33 {
+  width: 150px;
+  height: 150px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.people {
+  width: 330px;
+  height: 320px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.flex8 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.people p {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.kotak34 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak35 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.kotak36 {
+  width: 310px;
+  height: 80px;
+  background-color: #eaeaea;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.open {
+  display: none;
+}
+@media only screen and (max-width: 576px) {
+  .open {
+    width: 60px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    display: inline;
+    padding: 10px;
+  }
+  header {
+    width: 576px;
+  }
+  .kotak1 {
+    width: 100px;
+  }
+
+  .kotak2 {
+    width: 50px;
+  }
+
+  .kotak3 {
+    width: 50px;
+  }
+
+  .kotak4 {
+    width: 50px;
+  }
+
+  .flex1 {
+    margin-left: 35px;
+  }
+
+  .kotak5 {
+    width: 466px;
+  }
+
+  .kotak6 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak7 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak8 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak9 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak10 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak11 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak12 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak13 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak14 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .kotak15 {
+    margin-left: 35px;
+    width: 506px;
+  }
+
+  .leftbar p {
+    margin-left: 35px;
+    margin-top: 10px;
+  }
+
+  .create-pos {
+    width: 506px;
+    margin-top: 30px;
+  }
+
+  .kotak16 {
+    width: 486px;
+  }
+
+  .kotak17 {
+    width: 114px;
+  }
+
+  .kotak18 {
+    width: 114px;
+  }
+
+  .kotak19 {
+    width: 114px;
+  }
+
+  .kotak20 {
+    width: 57px;
+  }
+
+  .stories {
+    width: 506px;
+  }
+
+  .kotak21 {
+    width: 114px;
+  }
+
+  .kotak22 {
+    width: 114px;
+  }
+
+  .kotak23 {
+    width: 114px;
+  }
+
+  .kotak24 {
+    width: 114px;
+  }
+
+  .tagged {
+    width: 506px;
+  }
+
+  .kotak26 {
+    width: 426px;
+  }
+
+  .kotak27 {
+    width: 486px;
+  }
+
+  .kotak28 {
+    width: 486px;
+  }
+
+  .leftbar {
+    display: none;
+    margin-top: 40px;
+  }
+
+  .rightbar {
+    display: none;
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Selector, Action, Event jQuery</title>
+  </head>
+  <body>
+    <a href="submit" target="_blank"></a>
+    <h1>Masukkan data Anda</h1>
+    <div id="info"></div>
+    <form id="form">
+      <!--NAMA-->
+      <div>Nama : <input id="nama" type="text" /></div>
+      <br />
+      <!--NAMA-->
+      <!--JENIS KELAMIN-->
+      <div>
+        <label for="jeniskelamin">Jenis Kelamin :</label>
+        <select name="jeniskelamin" id="jeniskelamin">
+          <option value="" selected disabled>-- Pilih --</option>
+          <option value="laki-laki">laki-laki</option>
+          <option value="perempuan">Perempuan</option>
+        </select>
+      </div>
+      <br />
+      <br />
+      <!--JENIS KELAMIN-->
+      <!--KETERANGAN-->
+      <div>
+        Keterangan :
+        <textarea name="keterangan" id="keterangan" cols="30" rows="4">
+        </textarea>
+      </div>
+      <br />
+      <!--KETERANGAN-->
+      <p><input type="submit" /></p>
+    </form>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
